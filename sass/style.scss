@@ -8,12 +8,12 @@
     background-color: #F0F0F0; 
 }
 .container {
-    width: 1920px;
+    width: 1820px;
     overflow: hidden;
-    padding: 0 50px 0 60px;
-
+    // padding: 0 50px 0 60px;
+    margin: 0 auto;
     
-    @media (min-width: 1920px) {
+    @media (min-width: 1919px) {
         width: 1820px;
     };
     @media (max-width: 1600px) {
@@ -45,5 +45,7 @@ $main-color: #1C69D4;
 @import 'buttons';
 @import 'menu-mobile-active';
 @import 'slider';
+@import 'products';
+
 
 
