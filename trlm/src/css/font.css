@@ -1,0 +1,17 @@
+   
+    @font-face {
+        font-weight: 700; /* Соответствует значению bold */
+        font-family: Gotham Pro;
+        src: url("fonts/gothampro_bold.ttf");
+      }
+      @font-face {
+        font-weight: 400; /* Соответствует значению normal */
+        font-family: Gotham Pro;
+        src: url("fonts/gothampro_medium.ttf");
+      }
+
+      @font-face {
+        font-weight: 300; /* Соответствует значению light */
+        font-family: Gotham Pro;
+        src: url("fonts/gothampro_light.ttf");
+      }

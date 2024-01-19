@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                body{
+                    height: 600px;
+                    background-color: rgb(62,134,199);
+                }
+                .email-container {
+                    padding: 5px;
+                    /* background-color: rgb(34 132 240); */
+                    background: linear-gradient(225deg, rgb(255, 255, 255), rgb(234, 234, 234) 100%);
+                    box-shadow: 22px 20px 25px 0px rgba(34, 60, 80, 0.29);
+                    border-radius: 30px;
+                    /* border:solid; */
+                    max-width: 600px;
+                    margin: 0 auto;
+                    font-family: Arial, sans-serif;
+                }
+                .header {
+                    display: flex;
+                    align-items:center;
+                    text-align: center;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                .header_logo{
+                    display: block;
+                    width: 70px;
+                }
+                .header_logo_chatwoot{
+                    width: 70px;
+                }
+                .header_text{
+                    
+                    background-color: rgb(34 132 240);
+                    color:#fff;
+                    border-radius:20px;
+                    height: 35px;
+                    width: 100%;
+                    text-align: center;
+
+                }
+                .content {
+                    /* border:solid; */
+                    display: flex;
+                    align-items: center;
+                }
+                .info{
+                    width: 100%;
+                    /* background-color: rgb(14,34,64); */
+
+                }
+                .sender{
+                    position: absolute;
+                    transform: translateY(0px);
+                    display: flex;
+                    align-items:flex-start;
+                    min-width: 300px;
+                    max-width: 600px;
+                }
+                .sender_text{
+                    color:#fff;
+                    background-color: rgb(34 132 240);
+                    border-radius:20px;
+                    position: absolute;
+                    transform: translateX(50px);
+                    max-width: 600px;
+                    padding-left: 50px;
+                    display: inline-block;
+                }
+                .avatar {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100%;
+                    z-index: 2;
+                }
+
+                .question{
+                    margin: 68px 0 0 80px;
+                    /* padding: 55px 0 0 100px; */
+                    border-radius: 30px;
+                    border: solid 1px black;
+                    padding-left: 10px;
+                    width: 450px;
+                    height: 300px;
+                }
+                .sourse{
+                    background-color: rgb(34 132 240);
+                    color:#fff;
+                    padding: 0 5px 0 5px;
+                    border-radius:20px;
+                    display: inline-block;
+                    max-width: 300px;
+                    float: right;
+                }
+
+                
+                
+                .url_btn{
+                    /* background-color: #2284f0; */
+                    background-image: url('img/bg2.png');
+                    background-size: cover; 
+                    background-repeat: no-repeat;
+                    box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+                    width: 200px;
+                    height: 50px;
+                    border: none;
+                    border-radius: 5px;
+                    color:#fff;
+                }
+                .url_btn:hover{
+                    box-shadow: none;
+                }
+                .icon{
+                    width: 50px;
+                }
+              .footer {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+              }
+            </style>
+        </head>
+        <body>
+            <div class="email-container">
+                <div class="header">
+                    <div class="header_logo">
+                        <img src="img/chatwoot.svg" alt="logo" class="header_logo_chatwoot ">
+                    </div>
+                    <div class="header_text">
+                        Не могу ответить на следующий вопрос
+                    </div>
+                </div>
+                <div class="content">
+                    
+                    <div class="info">
+                        <div class="sender">
+                            <img src="https://chatwoot.handyweb.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBHUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecb956c435fa34069b400b25cff1c9897d5d0d13/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWZvdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--22caebdd9e3201f42617d820a3650f7cd45783f6/file_1.jpg" alt="Изображение" class="avatar">
+                            <div class="sender_text">
+                                <p>Отправитель: <span id="sender-name">${eventData.sender.name}</span></p>
+                            </div>
+                        </div>
+
+                        <div class="question">
+                        <p>Вопрос: <span id="question">${eventData.content}</span></p>
+                        </div>
+
+                        <div class="sourse">
+                            <p>Источник: <span id="source-name">${eventData.inbox.name}</span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer">
+                    <a target="_blank" href="https://chatwoot.handyweb.org/">
+                   <button class="url_btn">Вход в аккаунт</button> </a>     
+                   </div>
+                   <br>
+                </div>
+            </div>
+        </body>
+        </html>

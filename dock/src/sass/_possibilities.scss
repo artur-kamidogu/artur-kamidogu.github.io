@@ -1,0 +1,43 @@
+.possibilities{
+     &__cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width: 1400px) {
+            justify-content: center;
+            };
+            @media (max-width: 1280px) { 
+
+            };
+    }
+    &__card{
+        display: inline-block;
+        width: 628px;
+        height: 585px;
+        margin-top: 24px;
+        border-radius: 16px;
+        background: rgba(241, 245, 255, 0.50);
+        
+
+        &_title{
+            margin: 57px 0 0 48px;
+            color: #121722;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        &_descr{
+            margin: 11px 0 0 48px;
+            color: rgba(18, 23, 34, 0.60);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        &_img{
+            margin: 36px 0 0 48px;
+            width: 532px;
+            height: 343px;
+        }
+    }
+}

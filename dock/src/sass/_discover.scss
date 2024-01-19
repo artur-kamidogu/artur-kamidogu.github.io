@@ -1,0 +1,89 @@
+.discover{
+    margin-top: 24px;
+    &__block{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding:60px 40px 0 80px;
+        min-height: 590px;
+        border-radius: 16px;
+        background: rgba(241, 245, 255, 0.50);
+        
+    }
+    &__text{
+        margin-top: 20px;
+        display: inline-block;
+        @media (max-width: 1400px) {
+            display: block;
+            width: 100%;
+
+            };
+            @media (max-width: 1280px) { 
+
+            };
+        &_title{
+            margin-top: 0px;
+            width: 326px;
+            color: #121722;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38px;
+        }
+        &_descr{
+            width: 301px;
+            margin-top: 20px;
+            color: rgba(18, 23, 34, 0.70);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px; 
+        }
+    }
+    
+    &__card{
+        padding: 32px 0 0 32px;
+        margin:20px 20px 0;
+        display: inline-block;
+        width: 347px; //347-32
+        height: 430px; //430-32
+        border-radius: 16px;
+        background: #4058FF;
+        box-shadow: 0px 0px 0px 0px rgba(29, 33, 60, 0.27);
+        &_name{
+            margin-top: 32px;
+            color: #FFF;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        &_title{
+            margin: 0;
+            color: #FFF;
+            width: 251px;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        &_descr{
+            width: 274px;
+            margin-top: 13px;
+            color: rgba(255, 255, 255, 0.90);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        &_link{
+            margin-top: 15px;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none; 
+        }
+    }
+}

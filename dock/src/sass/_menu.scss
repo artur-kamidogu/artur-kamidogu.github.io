@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 68px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    @media (max-width: 1000px) { 
+        display: none;
+        };
+}
+.menu{
+    display: inline-block;
+    &__items{
+        margin-top: 11px;
+        width: 546px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #121722;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+
+    }
+    &__link{   
+        text-decoration: none;
+        color: #121722;
+    } 
+}
+.login{
+    width: 197px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    color: rgba(18, 23, 34, 0.70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    &__link{
+        text-decoration: none;
+        color: #121722;
+
+    }   
+}
+
+
+    

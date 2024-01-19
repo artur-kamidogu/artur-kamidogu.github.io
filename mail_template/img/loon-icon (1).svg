@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(6.25 0 0 6.25 200 225)" id="_37-mail"  >
+<polyline style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  points="15,-11 15,11 -15,11 -15,-11 " />
+</g>
+<g transform="matrix(6.25 0 0 6.25 200 187.5)" id="_37-mail"  >
+<polyline style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  points="-10,-10 -15,-5 0,10 15,-5 10,-10 " />
+</g>
+<g transform="matrix(6.25 0 0 6.25 140.63 259.38)" id="_37-mail"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-5.5" y1="5.5" x2="5.5" y2="-5.5" />
+</g>
+<g transform="matrix(6.25 0 0 6.25 259.38 259.38)" id="_37-mail"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="5.5" y1="5.5" x2="-5.5" y2="-5.5" />
+</g>
+<g transform="matrix(6.25 0 0 6.25 200 146.88)" id="_37-mail"  >
+<polyline style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  points="-10,6.5 -10,-6.5 10,-6.5 10,6.5 " />
+</g>
+<g transform="matrix(6.25 0 0 6.25 200 131.25)" id="_37-mail"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-6" y1="0" x2="6" y2="0" />
+</g>
+<g transform="matrix(6.25 0 0 6.25 200 156.25)" id="_37-mail"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-6" y1="0" x2="6" y2="0" />
+</g>
+<g transform="matrix(6.25 0 0 6.25 200 181.25)" id="_37-mail"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-6" y1="0" x2="6" y2="0" />
+</g>
+</svg>

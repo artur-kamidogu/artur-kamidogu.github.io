@@ -1,0 +1,61 @@
+.personalization
+{
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width: 1400px) {
+        justify-content: center;
+
+            
+        };
+
+        @media (max-width: 1280px) {
+            
+        };
+    }
+    min-height: 528px;
+    &_title{
+        color: #121722;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &_descr{
+        margin-top: 5px;
+        width: 523px;
+        color: rgba(18, 23, 34, 0.60);
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__example, &__feedback {
+        // float: left;
+        
+        margin-top: 24px;
+        padding: 74px 0 0 48px;
+        display: inline-block;
+        width: 628px; // 628-48
+        height: 585px; // 585-74
+        border-radius: 16px;
+        background: rgba(255, 244, 245, 0.50);
+    }
+    &__example_img{
+        width: 532px;
+        height: 343px;
+        margin-top:137px ;
+    }
+    &__feedback{
+        // float: right;
+        background: rgba(255, 246, 228, 0.50);
+        &_img{
+           margin-top: 69px;
+           width: 532px;
+            height: 343px; 
+        }
+    }
+}

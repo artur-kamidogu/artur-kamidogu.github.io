@@ -1,0 +1,84 @@
+$main-color:#4058FF;
+$second-color:rgba(64, 140, 255, 0.10);
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container  {
+    // overflow: hidden;
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 ;
+    @media (max-width: 1280px) {
+        width: 1000px;
+    };
+    @media (max-width: 1000px) {
+        margin: 0 20px 0 20px;
+    };
+    @media (max-width: 800px) {
+       
+    };
+    @media (max-width: 600px) {
+       
+        
+    };
+    
+}
+
+
+.button , .get_started_btn{
+    width: 158px;
+    height: 48px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(18, 23, 34, 0.01);
+    background-color: $main-color;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login__btn{
+    width: 132px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: $second-color;
+    border: none;
+    color: $main-color;
+    font-size: 16px;
+    font-weight: 700;
+}
+.explore_btn{
+    margin-top: 17px;
+    width: 213px;
+    height: 49px;
+    border-radius: 34px;
+    background-color: $second-color;
+    border: none;
+    color: $main-color;
+    font-size: 16px;
+    font-weight: 700;
+}
+.get_started_btn{
+    background: #FFF;
+    color: #4058FF;
+    margin-top: 17px;
+}
+@import 'menu';
+@import 'burger-menu';
+@import 'main-screen';
+@import 'customer-service';
+@import 'table';
+@import 'personalization';
+@import 'uplevel';
+@import 'possibilities';
+@import 'discover';
+@import 'explore';
+@import 'get-started';
+@import 'footer';
+
+
+
+
+
+
+

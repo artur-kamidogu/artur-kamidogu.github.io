@@ -1,0 +1,115 @@
+.promo{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    padding:54px 79px 0 146px ;
+    margin: 0 auto;
+    @media (min-width: 200px) and (max-width:1199px) {
+        padding: 0 ;
+    };
+    &_header{
+        width: 600px;
+        float: left;
+        z-index: 1;
+        @media (min-width: 200px) and (max-width:1199px) {
+            width: auto;
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        };
+    }
+    &_descr{
+        margin-top: 20px;
+        width: 466px;
+        z-index: 1;
+        @media (min-width: 200px) and (max-width:1199px) {
+            width: auto;
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+        };
+    }
+
+    &_img{
+        position: absolute;
+        top: 0;
+        // left: 0px;
+        right: 0;
+        width: 657px;
+        height: 463px;
+        padding: 40px;
+        @media (min-width: 768px) and (max-width:1199px) {
+            padding: 0;
+            width: 461px;
+            height: 325px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+        };
+        @media (max-width: 767px) and (min-width:200px) {
+            padding: 0;
+            width: 344px;
+            height: 242px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+        };
+    }
+
+    &_form{
+        margin-top: 46px;
+        background-color: red;
+        width: 658px;
+        height: 55px;
+        z-index: 1;
+        display: none;
+
+    }
+    &_advantages{
+        margin-top: 68px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        @media (min-width: 768px) and (max-width:1199px) {
+            width: 768px;
+            padding: 0 15px 0 15px;
+            flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+            justify-content: space-between;
+            margin: 0 auto;
+        };
+        @media (max-width: 767px) and (min-width: 200px) {
+            flex-direction: column;
+            justify-content: center;
+        };
+        &_item{
+            width: 272px;
+            height: 69px;
+            background-color: #fff;
+            border-radius:15px;
+            display: flex;
+            align-items:center;
+            @media (min-width: 768px) and (max-width:1199px) {
+                width: 359px;
+                margin-bottom: 11px;
+
+            };
+            &_img{
+                margin-left: 33px;
+                margin-right: 22px;
+                width: 26px;
+                height: 26px;
+                
+            }
+            &_text{
+                color: #6D698C;
+                font-family: "Faber Sans Pro";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; 
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.wraper{
+    background-color: #F5F4FF;; 
+}
+
+
+@import 'header';
+@import 'buttons';
+@import 'promo';
+
+
+.txt_header{
+    font-family: Directo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    @media (min-width: 768px) and (max-width:1199px) {
+        font-size: 38px;
+        line-height: 48px;
+    };
+    @media (max-width: 767px) and (min-width: 200px) {
+        font-size: 30px;
+        line-height: 40px;
+    };
+}
+
+.hideormin1200{
+    display: none;
+    @media (min-width: 1200px) {
+        display: block;
+    };   
+}
+
+.hideorbig1200{
+    display: block;
+    @media (min-width: 1200px) {
+        display: none;
+    };   
+}
+
+.txt_descr{
+    color: #8682A7;
+    font-family: "Faber Sans Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    @media (min-width: 768px) {
+        font-size: 20px;
+    };
+    @media (max-width: 767px) and (min-width: 200px) {
+        font-size: 16px;
+        line-height: 24px;
+    };
+}
+
+
+
+    
+
+
+
+
+
+
+
+

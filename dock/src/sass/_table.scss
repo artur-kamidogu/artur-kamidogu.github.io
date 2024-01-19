@@ -1,0 +1,64 @@
+.table{
+    margin-top: 24px;
+    &__content{
+        @media (max-width: 1280px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        };
+        min-height: 650px;
+        border-radius: 16px;
+        background: rgba(241, 245, 255, 0.50);
+        &-text{
+            margin-top: 197px;
+            margin-right: 48px;
+            float: right;
+            @media (max-width: 1280px) {
+                margin: 0 auto;
+            };
+            &__title{
+                width: 283px;
+                color: #121722;
+                font-family: Roboto;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 38px;
+                @media (max-width: 1280px) {
+                margin: 0 auto;
+                width: 80%; 
+                };
+            }
+            &__descr{
+                margin-top: 20px;
+                width: 337px;
+                color: rgba(18, 23, 34, 0.70);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+                @media (max-width: 1280px) {
+                    margin: 0 auto;
+                    width: 80%; 
+                    };
+            }
+            @media (max-width: 1400px) {
+                margin: 0 auto;
+                margin-top: 80px;
+            };
+    
+            
+        }
+        &-img{
+            margin:80px 0 0 48px ;
+            @media (max-width: 1280px) {
+                float: none;
+                display: inline-block;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            };
+        }
+    }
+}

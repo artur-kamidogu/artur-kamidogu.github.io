@@ -1,0 +1,89 @@
+.uplevel{
+    &__head{
+        min-height: 75px;
+        margin-top: 79px;
+        &_title{
+            margin: 0 auto;
+            color: #121722;
+            text-align: center;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        &_subtitle{
+            margin-top: 17px;
+            color: rgba(18, 23, 34, 0.70);
+            text-align: center;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    &__block{
+        margin-top: 48px;
+        min-height: 682px;
+        border-radius: 16px;
+        background: #121722;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width: 1280px) {
+            justify-content: center; 
+            };
+        &_text{
+            @media (max-width: 1280px) {
+                margin-top: 40px;
+                width: 100%; 
+                };
+            display: inline-block;
+            width: 355px;
+            margin-top: 246px;
+            margin-left: 48px;
+            &-title{
+                width: 267px;
+                color: #FFF;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 38px;
+                @media (max-width: 1280px) {
+                    margin: 0 auto;
+                    width: 100%; 
+                    };
+            }
+            &-descr{
+                margin-top: 20px;
+                width: 299px;
+                color: #B9C0D5;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+                @media (max-width: 1280px) {
+                    margin: 0 auto;
+                    width: 100%; 
+                    };
+            }
+        }
+        &_img{
+            width: 782px;
+            height: 522px;
+            margin: 80px 23px 0 0;
+            
+            @media (max-width: 1400px) {
+                width: 60%;
+                height: 60%;
+            };
+    
+            @media (max-width: 1280px) {
+                width: 70%;
+                height: 70%;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            };
+
+            
+        }
+        
+    }
+}

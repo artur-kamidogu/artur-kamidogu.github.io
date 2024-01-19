@@ -1,0 +1,113 @@
+.customer-service
+{
+    
+    margin-top: 1px;
+    &__title{
+        display: block;
+        margin-top: 79px;  
+        color: #121722;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        color: rgba(18, 23, 34, 0.70);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        // line-height: 32px;
+    }
+}
+
+.customer-service-info{
+    margin-top: 48px;
+    min-height: 682px;
+    border-radius: 16px;
+    background-color: $main-color;
+
+    &__text-box{
+        display: inline-block;
+        margin-left: 48px;
+        min-width: 354px;
+        @media (max-width: 1000px) {
+            margin: 0 auto;
+        }; 
+        &_title{
+            margin-top: 116px;
+            width: 354px;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 34px;
+            font-weight: 400;
+            line-height: 38px;
+            
+        }
+        &_1 , &_2{
+            color: #E8F1FF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px; 
+            width: 306px;
+            
+        }
+        &_1{
+          margin-top: 20px;
+          margin-bottom: 46px;  
+        }
+        &_line{
+            background: #4B93FF;
+            width: 355.188px;
+            border: none;
+            height: 1px;
+            
+        }
+        &_2{
+            margin-top: 19px;
+        }
+    }
+    &__logos{
+    
+    }
+    &__logo{
+        text-align: center;
+        margin-right: 4px;
+        display: inline-block;
+       width: 32px;
+       height: 32px;
+       border-radius: 100%;
+        &__img{
+            width: 32px;
+            height: 32px;
+        }
+    }
+    &__img{
+        float: right;
+        margin:90px 40px 0 0;
+        width: 782px;
+        height: 522px;
+        @media (max-width: 1400px) {
+            width: 60%;
+            height: 60%;
+
+        };
+
+        @media (max-width: 1000px) {
+            margin: 0 auto;
+        };
+        
+    }
+    @media (max-width: 1400px) {
+        display: flex;
+        justify-content: center;
+    };
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    };
+}

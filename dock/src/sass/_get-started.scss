@@ -1,0 +1,24 @@
+.get_started{
+    margin-top: 79px;
+    &_block{
+        height: 346px;
+        border-radius: 16px;
+        background: #4058FF;
+        padding-top:124px ;
+    }
+    &_title{
+        
+    }
+    &_center{
+        display: flex;
+        justify-content: center;
+    }
+    &_title{
+        color: #FFF;
+        text-align: center;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}

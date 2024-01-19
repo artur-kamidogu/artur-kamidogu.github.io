@@ -1,0 +1,35 @@
+.main{
+    min-height: 533px;
+    &__img {
+        
+        float: right;
+        margin: 40px 54px 1px 50%;
+        @media (max-width: 800px) {
+            margin: 40px 0px 0 50%;
+        };
+        
+    }
+    &__text-box{
+        margin: 114px 0 0 40px;
+        display: inline-block;
+        &__title{
+            margin: 0;
+            width: 380px;
+            color: #121722;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px; 
+        }
+        &__subtitle{
+            width: 239px;
+            margin-top: 20px;
+            color: rgba(18, 23, 34, 0.70);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+        }
+    }
+
+}
