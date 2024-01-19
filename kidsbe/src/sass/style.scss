@@ -12,6 +12,8 @@
 @import 'header';
 @import 'buttons';
 @import 'promo';
+@import 'books';
+
 
 
 .txt_header{
@@ -27,6 +29,22 @@
     @media (max-width: 767px) and (min-width: 200px) {
         font-size: 30px;
         line-height: 40px;
+    };
+}
+
+.txt_header2{
+    font-family: Directo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    @media (min-width: 768px) and (max-width:1199px) {
+        font-size: 32px;
+        line-height: 46px;
+    };
+    @media (max-width: 767px) and (min-width: 200px) {
+        font-size: 22px;
+        line-height: 32px;
     };
 }
 

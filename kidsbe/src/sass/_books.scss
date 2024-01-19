@@ -1,0 +1,98 @@
+.books{
+
+    
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative;
+    .books_left{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 94px;
+        float: right;
+        margin-top: 127px;
+        
+    }
+    &_header{
+        margin: 0 auto;
+        width: 786px;
+        height: 100px;
+        text-align: center;
+    }
+    &_descr{
+        display: inline-block;
+        float: right;
+        max-width: 504px;
+
+        color: #2D2D2D;
+        font-family: "Faber Sans Pro";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    &_image_block{
+        position: absolute;
+        width: 739px;
+        height: 739px;
+        margin-left: 39px;
+        top: 70px;
+        
+        &_items{
+            position: absolute;
+            display: flex;
+            // flex-wrap: nowrap;
+            flex-direction: column;
+            width: 488px;
+            // background-color: red;
+            // top: calc(100% - 100px);
+            bottom: 95px;
+            // right: 160px;
+            left: 160px;
+        }
+        &_item{
+            margin-right: 20px;
+           display: inline-block;
+            color: #6D698C;
+            font-family: "Faber Sans Pro";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+
+            background-color: #fff;
+            border-radius: 15px;
+            margin-top: 20px;
+            padding: 19px 20px 0 26px;
+            width: 219px;
+            height: 166px;
+        }
+        .books_img{
+            z-index: 1;
+            width: 739px;
+            height: 739px;
+        }
+    }
+    &_advantages{
+        display: flex;
+        position: relative;
+        width: 500px;
+        &_item{
+            display: inline-block;
+            color: #6D698C;
+            font-family: "Faber Sans Pro";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+
+            background-color: #fff;
+            border-radius: 15px;
+            margin-top: 20px;
+            padding: 19px 20px 0 26px;
+            width: 219px;
+            height: 166px;
+        }
+    }
+}

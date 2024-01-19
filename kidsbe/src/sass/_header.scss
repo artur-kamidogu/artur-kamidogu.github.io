@@ -1,7 +1,9 @@
 .header{
+    position: relative;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    z-index: 3;
 }
 
 .line{
@@ -204,7 +206,7 @@
         left: 100%;
         transform: translateX(calc(-100% - 15px));
         margin-right: 15px;
-        margin-top: 90px;
+        margin-top: 93px;
         width: 256px;
         height: 340px;
         background-color: #fff;

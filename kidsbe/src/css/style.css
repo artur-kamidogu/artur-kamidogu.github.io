@@ -9,6 +9,7 @@
   background-color: #F5F4FF; }
 
 .header {
+  position: relative;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +17,8 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  z-index: 3; }
 
 .line {
   display: none;
@@ -206,7 +208,7 @@
   -webkit-transform: translateX(calc(-100% - 15px));
           transform: translateX(calc(-100% - 15px));
   margin-right: 15px;
-  margin-top: 90px;
+  margin-top: 93px;
   width: 256px;
   height: 340px;
   background-color: #fff; }
@@ -283,6 +285,7 @@
 .burger {
   display: none;
   border: none;
+  z-index: 3;
   border-radius: 5px 30px 5px 15px;
   background-color: #FFCF3C;
   -webkit-transition: all 0.3s;
@@ -329,17 +332,26 @@
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center;
+        padding: 0 15px 0 15px; } }
   .promo_descr {
     margin-top: 20px;
     width: 466px;
     z-index: 1; }
+    .promo_descr .brbig375 {
+      display: none; }
+    @media (min-width: 200px) and (max-width: 767px) {
+      .promo_descr .brbig375 {
+        display: block; }
+      .promo_descr .br375 {
+        display: none; } }
     @media (min-width: 200px) and (max-width: 1199px) {
       .promo_descr {
         width: auto;
         float: none;
         margin: 0 auto;
-        text-align: center; } }
+        text-align: center;
+        padding: 0 21px 0 21px; } }
   .promo_img {
     position: absolute;
     top: 0;
@@ -398,9 +410,10 @@
                 flex-direction: column;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center;
+        width: 100%;
+        padding: 0 15px 0 15px; } }
     .promo_advantages_item {
-      width: 272px;
       height: 69px;
       background-color: #fff;
       border-radius: 15px;
@@ -410,10 +423,17 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+      @media (min-width: 1200px) {
+        .promo_advantages_item {
+          width: 272px; } }
       @media (min-width: 768px) and (max-width: 1199px) {
         .promo_advantages_item {
           width: 359px;
           margin-bottom: 11px; } }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .promo_advantages_item {
+          margin-top: 10px;
+          width: 100%; } }
       .promo_advantages_item_img {
         margin-left: 33px;
         margin-right: 22px;
@@ -426,6 +446,95 @@
         font-style: normal;
         font-weight: 400;
         line-height: 20px; }
+
+.books {
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative; }
+  .books .books_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    padding-left: 94px;
+    float: right;
+    margin-top: 127px; }
+  .books_header {
+    margin: 0 auto;
+    width: 786px;
+    height: 100px;
+    text-align: center; }
+  .books_descr {
+    display: inline-block;
+    float: right;
+    max-width: 504px;
+    color: #2D2D2D;
+    font-family: "Faber Sans Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; }
+  .books_image_block {
+    position: absolute;
+    width: 739px;
+    height: 739px;
+    margin-left: 39px;
+    top: 70px; }
+    .books_image_block_items {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 488px;
+      bottom: 95px;
+      left: 160px; }
+    .books_image_block_item {
+      margin-right: 20px;
+      display: inline-block;
+      color: #6D698C;
+      font-family: "Faber Sans Pro";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      background-color: #fff;
+      border-radius: 15px;
+      margin-top: 20px;
+      padding: 19px 20px 0 26px;
+      width: 219px;
+      height: 166px; }
+    .books_image_block .books_img {
+      z-index: 1;
+      width: 739px;
+      height: 739px; }
+  .books_advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 500px; }
+    .books_advantages_item {
+      display: inline-block;
+      color: #6D698C;
+      font-family: "Faber Sans Pro";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      background-color: #fff;
+      border-radius: 15px;
+      margin-top: 20px;
+      padding: 19px 20px 0 26px;
+      width: 219px;
+      height: 166px; }
 
 .txt_header {
   font-family: Directo;
@@ -441,6 +550,21 @@
     .txt_header {
       font-size: 30px;
       line-height: 40px; } }
+
+.txt_header2 {
+  font-family: Directo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .txt_header2 {
+      font-size: 32px;
+      line-height: 46px; } }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .txt_header2 {
+      font-size: 22px;
+      line-height: 32px; } }
 
 .hideormin1200 {
   display: none; }
