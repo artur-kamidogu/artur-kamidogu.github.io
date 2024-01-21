@@ -78,12 +78,73 @@
     }
 
     &_form{
+
+        position: relative;
         margin-top: 46px;
-        background-color: red;
+        // background-color: red;
         width: 658px;
         height: 55px;
         z-index: 1;
-        display: none;
+        @media (min-width: 768px) and (max-width:1199px) {
+            
+            margin: 0 auto;
+            margin-bottom: 42px;
+        };
+        @media (max-width: 767px) and (min-width:200px) {
+            margin: 0 auto;
+            height: 120px;
+            width: 345px;
+            display: flex;
+            flex-wrap: wrap;
+        };
+        &_tel{
+            display: flex;
+            align-items:center;
+            height: 55px;
+            width: 433px;
+            border-radius: 15px 15px 15px 50px;
+            background-color: #E8E5FB;
+            @media (max-width: 767px) and (min-width:200px) {
+                border-radius: 15px 50px 15px 50px;
+            };
+            &_img{
+                margin-left: 38px;
+            }
+            &_input{
+                background-color: #E8E5FB;
+                border:none;
+                outline: none;
+                
+            }
+        
+        }
+        &_button{
+            position: absolute;
+            border:none;
+            width: 245px;
+            height: 55px;
+            border-radius: 15px 50px 15px 50px;
+            background: #5B45FF;
+            left: 292px;
+            top:0;
+            color: #FFF;
+            text-align: center;
+            font-family: "Faber Sans Pro";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; 
+            &:hover{
+                background: #EF584E;
+            };
+            @media (max-width: 767px) and (min-width:200px) {
+                left: 0;
+                position: relative;
+                margin: 0 auto;
+                margin-top: 10px;
+                width: 345px;
+            };
+        }
 
     }
     &_advantages{

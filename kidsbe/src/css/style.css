@@ -6,7 +6,8 @@
           box-sizing: border-box; }
 
 .wraper {
-  background-color: #F5F4FF; }
+  background-color: #F5F4FF;
+  height: 100%; }
 
 .header {
   position: relative;
@@ -376,12 +377,70 @@
         display: block;
         margin: 0 auto; } }
   .promo_form {
+    position: relative;
     margin-top: 46px;
-    background-color: red;
     width: 658px;
     height: 55px;
-    z-index: 1;
-    display: none; }
+    z-index: 1; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .promo_form {
+        margin: 0 auto;
+        margin-bottom: 42px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .promo_form {
+        margin: 0 auto;
+        height: 120px;
+        width: 345px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    .promo_form_tel {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 55px;
+      width: 433px;
+      border-radius: 15px 15px 15px 50px;
+      background-color: #E8E5FB; }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .promo_form_tel {
+          border-radius: 15px 50px 15px 50px; } }
+      .promo_form_tel_img {
+        margin-left: 38px; }
+      .promo_form_tel_input {
+        background-color: #E8E5FB;
+        border: none;
+        outline: none; }
+    .promo_form_button {
+      position: absolute;
+      border: none;
+      width: 245px;
+      height: 55px;
+      border-radius: 15px 50px 15px 50px;
+      background: #5B45FF;
+      left: 292px;
+      top: 0;
+      color: #FFF;
+      text-align: center;
+      font-family: "Faber Sans Pro";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; }
+      .promo_form_button:hover {
+        background: #EF584E; }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .promo_form_button {
+          left: 0;
+          position: relative;
+          margin: 0 auto;
+          margin-top: 10px;
+          width: 345px; } }
   .promo_advantages {
     margin-top: 68px;
     display: -webkit-box;
@@ -761,6 +820,385 @@
             font-size: 12px;
             line-height: 18px;
             margin-top: 20px; } }
+
+.kids {
+  position: relative;
+  max-width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #F5F4FF;
+  min-height: 707px; }
+  @media (min-width: 1800px) {
+    .kids {
+      overflow: visible; } }
+  .kids_img {
+    width: 1159px;
+    position: absolute;
+    z-index: 0;
+    left: 35%;
+    -webkit-transform: translateY(-350px);
+            transform: translateY(-350px); }
+  .kids_container {
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin-left: 10%;
+    padding-top: 160px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .kids_container {
+        padding-top: 105px;
+        float: none;
+        margin-left: 0; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .kids_container {
+        padding-top: 30px;
+        float: none;
+        margin-left: 0; } }
+  .kids_header {
+    z-index: 2;
+    width: 691px;
+    height: 100px;
+    margin-bottom: 0; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .kids_header {
+        text-align: center;
+        margin: 0 auto;
+        width: 738px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .kids_header {
+        margin: 0 auto;
+        text-align: center;
+        width: 345px;
+        height: auto; } }
+  .kids_img_container {
+    width: 731px;
+    margin: 0 auto; }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .kids_img_container {
+        width: 450px;
+        margin-right: 40px; } }
+  .kids_descr {
+    z-index: 2;
+    margin-top: 16px;
+    width: 637px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .kids_descr {
+        margin: 0 auto;
+        margin-top: 11px;
+        text-align: center; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .kids_descr {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 345px;
+        text-align: center; } }
+    .kids_descr_2 {
+      margin-top: 53px;
+      width: 525px; }
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .kids_descr_2 {
+          margin-top: 41px; } }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .kids_descr_2 {
+          display: none; } }
+  .kids_items {
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    margin-top: 27px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .kids_items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 auto; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .kids_items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 auto;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    .kids_items_item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .kids_items_item:last-child {
+        margin-left: 30px; }
+        @media (max-width: 767px) and (min-width: 200px) {
+          .kids_items_item:last-child {
+            margin-left: 0;
+            margin-top: 30px; } }
+      .kids_items_item_img {
+        margin-top: 6px;
+        height: 47px; }
+      .kids_items_item_text {
+        width: 240px;
+        margin-left: 37px;
+        color: #2D2D2D;
+        font-family: "Faber Sans Pro";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; }
+
+.form {
+  position: relative;
+  width: 100%;
+  height: 662px;
+  background-color: #7967FF;
+  z-index: 1;
+  overflow: hidden; }
+  .form_2 {
+    background-color: #32B47A; }
+  .form_3 {
+    background-color: #EF6A62; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .form {
+      height: 601px; } }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .form {
+      height: 529px; } }
+  .form_container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 10%;
+    padding-top: 154px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_container {
+        padding-left: 72px;
+        padding-top: 45px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_container {
+        padding-left: 15px;
+        padding-top: 36px; } }
+  .form_header {
+    z-index: 1;
+    position: relative;
+    color: #FFF;
+    font-family: Directo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    width: 691px; }
+    .form_header_yellow {
+      color: #FFCF3C; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_header {
+        width: 469px;
+        font-size: 32px;
+        line-height: 46px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_header {
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center; } }
+  .form_descr {
+    position: relative;
+    z-index: 1;
+    width: 386px;
+    height: 60px;
+    color: #FFF;
+    font-family: "Faber Sans Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 26px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_descr {
+        width: 322px;
+        font-size: 20px;
+        line-height: 30px;
+        /* 150% */
+        margin-top: 10px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_descr {
+        margin-top: 6px;
+        width: 242px;
+        height: 24px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 24px;
+        /* 160% */
+        margin: 0 auto; } }
+  .form_forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_forms {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_forms {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    .form_forms_item_descr {
+      color: #FFF;
+      font-family: "Faber Sans Pro";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; }
+    .form_forms_item_input {
+      margin-top: 8px;
+      width: 272px;
+      height: 55px;
+      border-radius: 15px 50px;
+      background: #FFF;
+      padding-left: 47px;
+      border: none;
+      outline: none; }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .form_forms_item_input {
+          width: 345px; } }
+  .form_submit {
+    width: 564px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 26px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_submit {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        margin-top: 20px;
+        width: 272px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_submit {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        width: 345px;
+        margin: 0 auto;
+        margin-top: 20px; } }
+    .form_submit_allert {
+      width: 272px;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: baseline;
+          -ms-flex-pack: baseline;
+              justify-content: baseline; }
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .form_submit_allert {
+          margin-top: 26px; } }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .form_submit_allert {
+          margin-top: 20px; } }
+      .form_submit_allert_img {
+        position: absolute;
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%); }
+      .form_submit_allert_text {
+        margin-left: 22px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Faber Sans Pro";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        width: 203px; }
+    .form_submit_button {
+      border: none;
+      outline: none;
+      width: 272px;
+      height: 55px;
+      border-radius: 15px 50px;
+      background: #2DBC7C;
+      color: #FFF;
+      text-align: center;
+      font-family: "Faber Sans Pro";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; }
+      .form_submit_button:hover {
+        background: #EF584E; }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .form_submit_button {
+          width: 345px;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; } }
+  .form_images {
+    position: absolute;
+    right: 5%;
+    top: 68px;
+    z-index: 0;
+    width: 510px;
+    height: 594px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .form_images {
+        width: 423px;
+        height: 493px;
+        right: 0;
+        top: 106px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .form_images {
+        display: none; } }
+    .form_images_bg {
+      position: absolute; }
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .form_images_bg {
+          width: 423px;
+          height: 493px; } }
+    .form_images_img {
+      position: absolute; }
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .form_images_img {
+          width: 423px;
+          height: 493px; } }
 
 .txt_header {
   font-family: Directo;
