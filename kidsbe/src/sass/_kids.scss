@@ -5,9 +5,6 @@
     margin: 0 auto;
     background-color: #F5F4FF;
     min-height: 707px;
-    @media (min-width:1800px) {
-        overflow:visible;
-    };
     &_img{
         width: 1159px;
         position: absolute;

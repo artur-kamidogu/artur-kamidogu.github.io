@@ -45,7 +45,6 @@
     &_header{
         z-index: 1;
         position: relative;
-
         color: #FFF;
         font-family: Directo;
         font-size: 48px;
@@ -62,9 +61,11 @@
             line-height: 46px;
         };
         @media (max-width: 767px) and (min-width: 200px) {
+            width: 323px;
             font-size: 22px;
             line-height: 32px;
             text-align: center;
+            margin: 0 auto;
         };    
     }
     &_descr{
@@ -194,7 +195,19 @@
             line-height: 30px;
             &:hover{
                 background: #EF584E;
-            }; 
+            };
+            &_2{
+                background:#FFCF3C;
+                &:hover{
+                    background: #EF584E;
+                };
+            } 
+            &_3{
+                background:#FFCF3C;
+                &:hover{
+                    background: #2DBC7C;
+                };
+            } 
             @media (max-width: 767px) and (min-width: 200px) {
                 width: 345px;
                 align-items:center;
@@ -208,7 +221,13 @@
         z-index: 0;
         width: 510px;
         height: 594px;
-        
+        &_2{
+            width: 395px;
+            height: 580px;
+        }
+        &_3{
+
+        }
         @media (min-width: 768px) and (max-width:1199px) {
             width: 423px;
             height: 493px;
@@ -221,17 +240,60 @@
          };
         &_bg{
             position: absolute;
+            
             @media (min-width: 768px) and (max-width:1199px) {
                 width: 423px;
                 height: 493px;
              };
+             &_2{
+                right: -65px;
+                top:70px;
+                @media (min-width: 768px) and (max-width:1199px) {
+                    right: -5px;
+                    width: 394px;
+                    height: 332px;
+                 };
+             }
+             &_3{
+                 right: -26px;
+                 @media (min-width: 768px) and (max-width:1199px) {
+                    right: -5px;
+                    width: 327px;
+                    height: 361px;
+                 };
+             }
+
         }
         &_img{
             position: absolute;
+            
             @media (min-width: 768px) and (max-width:1199px) {
                 width: 423px;
                 height: 493px; 
              };
+
+             &_2{
+                width: 384px;
+                height: 580px;
+                top: 14px;
+                @media (min-width: 768px) and (max-width:1199px) {
+                    top: 41px;
+                    right: 22px;
+                    width: 300px;
+                    height: 454px;
+                 };
+            }
+            &_3{
+                width: 591px;
+                height: 593px;
+                top: 0px;
+                @media (min-width: 768px) and (max-width:1199px) {
+                    width: 488px;
+                    height: 490px;
+                    right: -19px;
+                    top: 5px;
+                 };
+            }
         }
     }
 }
