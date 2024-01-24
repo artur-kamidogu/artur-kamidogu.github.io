@@ -1908,6 +1908,208 @@
             line-height: 22px;
             margin-top: 20px; } }
 
+.audio_header {
+  color: #2D2D2D;
+  text-align: center;
+  font-family: Directo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 75px;
+  width: 819px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .audio_header {
+      width: 561px;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px;
+      margin-top: 70px; } }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .audio_header {
+      margin-top: 34px;
+      width: 345px;
+      color: #2D2D2D;
+      font-family: Directo;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      text-align: left; } }
+.audio_buttons {
+  margin: 0 auto;
+  margin-top: 49px;
+  width: 300px; }
+  .audio_buttons_button {
+    position: relative;
+    width: 146px;
+    height: 45px;
+    border-radius: 15px 50px;
+    background: #5B45FF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Faber Sans Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; }
+    .audio_buttons_button:hover {
+      color: #513CF3;
+      background: none; }
+      .audio_buttons_button:hover::after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="79" height="1" viewBox="0 0 79 1"><line y1="0.5" x2="79" y2="0.5" stroke="%235B45FF" stroke-dasharray="2 2"/></svg>');
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -20px; }
+.audio_media {
+  width: 1148px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 49px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .audio_media {
+      margin-top: 39px;
+      width: 626px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .audio_media {
+      width: 345px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  .audio_media_video {
+    background: #000;
+    width: 575px;
+    height: 381px; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .audio_media_video {
+        width: 626px;
+        height: 370px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .audio_media_video {
+        width: 345px;
+        height: 226px; } }
+  .audio_media_audios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .audio_media_audios {
+        margin-top: 23px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .audio_media_audios {
+        margin-top: 20px; } }
+    .audio_media_audios_item .audio_item {
+      width: 491px;
+      height: 69px;
+      border-radius: 20px;
+      background: #D1EEE1;
+      margin-top: 10px; }
+      @media (min-width: 768px) and (max-width: 1199px) {
+        .audio_media_audios_item .audio_item {
+          width: 626px; } }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .audio_media_audios_item .audio_item {
+          width: 345px; } }
+.audio_tiles {
+  position: relative;
+  width: 1148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 45px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .audio_tiles {
+      margin-top: 69px;
+      width: 530px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .audio_tiles {
+      margin-top: 30px;
+      width: 345px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  .audio_tiles_tile {
+    position: relative;
+    width: 564px;
+    height: 569px;
+    border-radius: 10px;
+    background: #FFF; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .audio_tiles_tile {
+        width: 530px;
+        height: 569px; }
+        .audio_tiles_tile:last-child {
+          margin-top: 20px; } }
+    @media (max-width: 767px) and (min-width: 200px) {
+      .audio_tiles_tile {
+        width: 345px;
+        height: 345px; }
+        .audio_tiles_tile:last-child {
+          margin-top: 20px; } }
+    .audio_tiles_tile_btn {
+      position: absolute;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: 69px;
+      width: 245px;
+      height: 55px;
+      border-radius: 15px 50px;
+      border: 1px solid #5B45FF;
+      color: #513CF3;
+      text-align: center;
+      font-family: "Faber Sans Pro";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; }
+      @media (max-width: 767px) and (min-width: 200px) {
+        .audio_tiles_tile_btn {
+          bottom: 45px; } }
+      .audio_tiles_tile_btn:hover {
+        background: #5B45FF;
+        color: #FFF; }
+
 .footer {
   background: #6D698C; }
   .footer_container {
@@ -2069,6 +2271,118 @@
       content: url("../icons/viber-act.svg"); }
       .footer-logos-item-link_7:hover {
         content: url("../icons/viber-def.svg"); }
+
+.request {
+  position: absolute;
+  z-index: 999;
+  width: 450px;
+  height: 499px;
+  border-radius: 15px;
+  background: #FFF;
+  padding: 48px 0 0 79px;
+  top: 50%;
+  /* по вертикали по центру */
+  left: 50%;
+  /* по горизонтали по центру */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  .request_header {
+    color: #2D2D2D;
+    font-family: Directo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; }
+  .request_forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #B7B4D3;
+    font-family: "Faber Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .request_forms_item_descr {
+      margin-top: 18px;
+      color: #2D2D2D;
+      font-family: "Faber Sans Pro";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; }
+    .request_forms_item_input {
+      margin-top: 8px;
+      width: 272px;
+      height: 55px;
+      border-radius: 15px 50px;
+      background: #F3F2FF;
+      padding-left: 47px;
+      border: none;
+      outline: none; }
+  .request_submit {
+    width: 564px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 26px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 345px;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .request_submit_allert {
+      width: 272px;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: baseline;
+          -ms-flex-pack: baseline;
+              justify-content: baseline; }
+      .request_submit_allert_img {
+        position: absolute;
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%); }
+      .request_submit_allert_text {
+        margin-left: 20px;
+        color: #B7B4D3;
+        font-family: "Faber Sans Pro";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; }
+    .request_submit_button {
+      border: none;
+      outline: none;
+      width: 272px;
+      height: 55px;
+      border-radius: 15px 50px;
+      background: #2DBC7C;
+      color: #FFF;
+      text-align: center;
+      font-family: "Faber Sans Pro";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 14px; }
+      .request_submit_button:hover {
+        background: #EF584E; }
 
 .txt_header {
   font-family: Directo;

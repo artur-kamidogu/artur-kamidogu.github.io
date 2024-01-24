@@ -15,7 +15,32 @@
 </head>
 <body>
 <div class="wraper">
-   
+
+<div class="request">
+    <h2 class="request_header">Оставить заявку</h2>
+    <div class=" request_forms">
+        <div class=" request_forms_item">
+            <div class=" request_forms_item_descr">Ваше имя</div>
+            <input type="name" id="name" name="name" class="request_forms_item_input" placeholder="Александр"  required>
+        </div>
+
+        <div class="request_forms_item">
+                <div class=" request_forms_item_descr">Ваш телефон</div>
+                <input type="tel" id="phone" name="phone" class=" request_forms_item_input" placeholder="+7"  required>
+        </div>
+    </div>
+
+    <div class="request_submit">
+        <div class="request_submit_allert">
+            <img src="icons/check (36) 1.svg" alt="" class="request_submit_allert_img">
+            <div class="request_submit_allert_text">Нажимая на кнопку, Вы даёте согласие
+                на обработку персональных данных</div>
+        </div>
+        <input type="submit" value="Отправить" class="request_submit_button">
+    </div>
+</div>
+
+
 <section class="header">
 
     <div class="header_main">
@@ -574,6 +599,56 @@
     </div>
 </section>
 
+
+<section class="audio">
+    <div class="audio_container">
+        <h2 class="audio_header">
+            Родители и педагоги отмечают захватывающее
+            содержание и эффективность методик 
+        </h2>
+        <div class="audio_buttons">
+            <button class="audio_buttons_button">Родители</button>
+            <button class="audio_buttons_button">Педагоги</button>
+        </div>
+
+        <div class="audio_media">
+            <div class="audio_media_video"></div>
+            <div class="audio_media_audios">
+                <div class="audio_media_audios_item">
+                    <audio controls class="audio_item">
+                        <source src="audio/y2mate.bz - rammstein-amerika-official-video.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="audio_media_audios_item">
+                    <audio controls class="audio_item">
+                        <source src="audio/y2mate.bz - rammstein-amerika-official-video.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="audio_media_audios_item">
+                    <audio controls class="audio_item">
+                        <source src="audio/y2mate.bz - rammstein-amerika-official-video.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="audio_media_audios_item">
+                    <audio controls class="audio_item">
+                        <source src="audio/y2mate.bz - rammstein-amerika-official-video.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="audio_tiles">
+            <div class="audio_tiles_tile">
+                <button class="audio_tiles_tile_btn">Спросить лично</button>
+            </div>
+            <div class="audio_tiles_tile">
+                <button class="audio_tiles_tile_btn">Спросить лично</button>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="form form_3">
     <div class="form_container">
     <h2 class="form_header">
@@ -633,8 +708,6 @@
         </ul>
     </div>
 </footer>
-
-
 </div> <!-- wraper -->
 </body>
 <script  src="js/script.js"></script>
