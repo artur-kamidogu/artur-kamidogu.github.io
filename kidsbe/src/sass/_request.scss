@@ -16,6 +16,13 @@
     top: 50%; /* по вертикали по центру */
     left: 50%; /* по горизонтали по центру */
     transform: translate(-50%, -50%);
+    @media (min-width: 768px) and (max-width:1199px) {
+        
+    };
+    @media (max-width: 767px) and (min-width: 200px) {
+        width: 355px;
+        padding: 10px 0 0 20px;
+    };
     &_close{
         border:none;
         background: none;
@@ -66,7 +73,7 @@
         }
     }
     &_submit{
-        width: 564px;
+        width: 345px;
         display: flex;
         margin-top: 26px;
         flex-direction: column-reverse;

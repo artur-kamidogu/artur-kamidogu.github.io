@@ -2290,6 +2290,10 @@
     display: none; }
   .request_active {
     display: block; }
+  @media (max-width: 767px) and (min-width: 200px) {
+    .request {
+      width: 355px;
+      padding: 10px 0 0 20px; } }
   .request_close {
     border: none;
     background: none;
@@ -2336,7 +2340,7 @@
       border: none;
       outline: none; }
   .request_submit {
-    width: 564px;
+    width: 345px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
