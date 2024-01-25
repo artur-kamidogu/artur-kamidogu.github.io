@@ -29,3 +29,26 @@ document.querySelector('.request_close').addEventListener('click', function() {
       window.location.href = 'request.html';
     });
   });
+
+// код для конпки плээра 
+const playButton = document.querySelector('.audio_play');
+
+playButton.addEventListener('click', function() {
+  const playActive = document.querySelector('.play_active');
+  const playHide = document.querySelector('.play_hide');
+  const pauseActive = document.querySelector('.pause_active');
+  const pauseHide = document.querySelector('.pause_hide');
+
+  if (playActive) {
+    playActive.classList.remove('play_active');
+    playActive.classList.add('play_hide');
+    pauseHide.classList.remove('pause_hide');
+    pauseHide.classList.add('pause_active');
+  } else {
+    playHide.classList.remove('play_hide');
+    playHide.classList.add('play_active');
+    pauseActive.classList.remove('pause_active');
+    pauseActive.classList.add('pause_hide');
+  }
+});
+// код для конпки плээра 

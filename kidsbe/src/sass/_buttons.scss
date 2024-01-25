@@ -6,6 +6,8 @@
     border-radius: 15px 15px 15px 30px;
     border:none;
     background: #2DBC7C;
+    transition: all 0.5s;
+
     @media (min-width: 768px) {
         width: 183px;
         margin-left:27px ;

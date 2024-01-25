@@ -6,6 +6,7 @@
 };
 
 .audio{
+    background-color: #F5F4FF;
 
     &_container{
 
@@ -20,7 +21,7 @@
         line-height: 50px;
         text-align: center;
         margin: 0 auto;
-        margin-top: 75px;
+        padding-top: 75px;
         width: 853px;
         @media (min-width: 768px) and (max-width:1199px) {
             width: 561px;
@@ -60,6 +61,8 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 50px;
+                transition: all 0.5s;
+
                 &:hover{
                     color: #513CF3;
                     background: none;
@@ -119,6 +122,8 @@
             };
             &_item{
                 .audio_item{
+                    display: flex;
+                    align-items:center;
                     width: 491px;
                     height: 69px; 
                     border-radius: 20px;
@@ -130,6 +135,41 @@
                     @media (max-width: 767px) and (min-width: 200px) {
                         width: 345px;
                     };
+
+                    .audio_play{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 37px;
+                        width: 46px;
+                        height: 27.759px;
+                        border-radius:15px 50px 15px 50px;
+                        border:none;
+                        background: #2DBC7C;
+                        .play, .pause{
+                            &_active{
+                                display: block;
+                            }
+                            &_hide{
+                                display: none;
+                            }
+                        } 
+                    }
+                    .audio_line{
+                        margin-left: 40px;
+                        height: 2px;
+                        width: 264px;
+                        background: #2DBC7C;
+                    }
+                    .audio_timer{
+                        margin-left: 31px;
+                        color: #77AB94;
+                        font-family: Directo;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px;
+                    }
                 }
                 
             }
@@ -191,6 +231,8 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 30px;
+                transition: all 0.5s;
+
                 @media (min-width: 768px) and (max-width:1199px) {
                     
                 };

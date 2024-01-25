@@ -47,7 +47,7 @@
               padding-top: 36px;
           };
     }
-    &_header{
+    &_title{
         z-index: 1;
         position: relative;
         color: #FFF;
@@ -66,14 +66,15 @@
             line-height: 46px;
         };
         @media (max-width: 767px) and (min-width: 200px) {
-            width: 323px;
+            max-width: 323px;
+            width: 100%;
             font-size: 22px;
             line-height: 32px;
             text-align: center;
             margin: 0 auto;
         };    
     }
-    &_descr{
+    &_description{
         position: relative;
         z-index: 1;
         width: 386px;
@@ -94,7 +95,7 @@
         @media (max-width: 767px) and (min-width: 200px) {
             margin-top: 6px;
             width: 242px;
-            height: 24px;
+            // height: 24px;
             text-align: center;
             font-size: 15px;
             line-height: 24px; /* 160% */
@@ -122,7 +123,7 @@
             align-items:center;
         };
         &_item{
-            &_descr{
+            &_description{
                 color: #FFF;
                 font-family: "Faber Sans Pro";
                 font-size: 14px;
@@ -139,8 +140,11 @@
                 padding-left: 47px;
                 border:none;
                 outline: none;
-                @media (max-width: 767px) and (min-width: 200px) {
+                @media (max-width: 767px) and (min-width: 365px) {
                     width: 345px;
+                };
+                @media  (min-width: 364px) {
+                    max-width: 345px;
                 };
             }
         }
@@ -158,7 +162,8 @@
         @media (max-width: 767px) and (min-width: 200px) {
             flex-direction: column-reverse;
             align-items:flex-start;
-            width: 345px;
+            max-width: 345px;
+            width: 100%;
             margin: 0 auto;
             margin-top: 20px;
 
@@ -194,6 +199,7 @@
             border:none;
             outline: none;
             width: 272px;
+            // width: 100%;
             height: 55px;
             border-radius: 15px 50px;
             background: #2DBC7C;
@@ -204,6 +210,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: 30px;
+            transition: all 0.5s;
             &:hover{
                 background: #EF584E;
             };
@@ -220,7 +227,8 @@
                 };
             } 
             @media (max-width: 767px) and (min-width: 200px) {
-                width: 345px;
+                max-width: 345px;
+                width: 100%;
                 align-items:center;
             };
         }

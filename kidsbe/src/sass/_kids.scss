@@ -1,10 +1,6 @@
 .kids{
     position: relative;
-    max-width: 1440px;
-    overflow: hidden;
-    margin: 0 auto;
     background-color: #F5F4FF;
-    min-height: 707px;
     &_img{
         width: 1159px;
         position: absolute;
@@ -14,6 +10,21 @@
         // height: 791px; 
     }
     &_container{
+        position: relative;
+        max-width: 1440px;
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: #F5F4FF;
+        min-height: 707px;
+        @media (min-width: 768px) and (max-width:1199px) {
+            
+            
+        };
+        @media (max-width: 767px) and (min-width: 200px) {
+
+        }; 
+    }
+    &_block{
         position: relative;
         z-index: 2;
         float: left;
@@ -56,11 +67,12 @@
         width: 731px;
         margin: 0 auto;
         @media (max-width: 767px) and (min-width: 200px) {
-            width: 450px;
+            max-width: 450px;
+            width: 100%;
             margin-right: 40px;
         };
     }
-    &_descr{
+    &_description{
         z-index: 2;
         margin-top: 16px;
         width: 637px;
