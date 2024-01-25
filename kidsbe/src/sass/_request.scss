@@ -1,4 +1,11 @@
 .request{
+    &_hide{
+        display: none;
+    }
+    &_active{
+        display: block;
+    }
+
     position: absolute;
     z-index: 999;
     width: 450px;
@@ -9,7 +16,13 @@
     top: 50%; /* по вертикали по центру */
     left: 50%; /* по горизонтали по центру */
     transform: translate(-50%, -50%);
-    
+    &_close{
+        border:none;
+        background: none;
+        position: absolute;
+        right: 22px;
+        top: 21px;
+    }
     &_header{
         color: #2D2D2D;
         // text-align: center;

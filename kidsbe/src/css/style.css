@@ -2286,6 +2286,16 @@
   /* по горизонтали по центру */
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
+  .request_hide {
+    display: none; }
+  .request_active {
+    display: block; }
+  .request_close {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 22px;
+    top: 21px; }
   .request_header {
     color: #2D2D2D;
     font-family: Directo;
@@ -2383,6 +2393,125 @@
       margin-bottom: 14px; }
       .request_submit_button:hover {
         background: #EF584E; }
+
+.thank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .thank_img {
+    margin: 0 auto; }
+  .thank_header {
+    margin: 0 auto;
+    margin-top: 31px;
+    text-align: center;
+    color: #2D2D2D;
+    text-align: center;
+    font-family: Directo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; }
+  .thank_subheader {
+    margin-top: 24px;
+    text-align: center;
+    color: #2D2D2D;
+    text-align: center;
+    font-family: "Faber Sans Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; }
+  .thank_descr {
+    margin-top: 71px;
+    color: #8682A7;
+    text-align: center;
+    font-family: "Faber Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; }
+  .thank_social {
+    width: 289.6px;
+    margin: 0 auto;
+    margin-top: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .thank_social_link {
+      text-decoration: none;
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .thank_social_link:nth-child(1) {
+        background: -webkit-gradient(linear, left top, left bottom, from(#358CE2), color-stop(39.37%, #A23693), color-stop(73.75%, #EB713B), to(#FED97B));
+        background: linear-gradient(180deg, #358CE2 0%, #A23693 39.37%, #EB713B 73.75%, #FED97B 100%); }
+      .thank_social_link:nth-child(2) {
+        background: #DC2828; }
+      .thank_social_link:nth-child(3) {
+        background: #284ED7; }
+      .thank_social_link:nth-child(4) {
+        background: #3E70D1; }
+      .thank_social_link:hover {
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        /* Adjust the shadow size and color as needed */ }
+      .thank_social_link_img {
+        width: 25.6px;
+        height: 25.6px; }
+  .thank_back {
+    margin: 0 auto;
+    margin-top: 62px;
+    margin-bottom: 108px;
+    text-decoration: none;
+    width: 273px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #B7B4D3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #8682A7;
+    text-align: center;
+    font-family: "Faber Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; }
+    .thank_back:hover {
+      background: #2DBC7C;
+      color: #FFF; }
+
+.wraper_request {
+  height: 100%; }
 
 .txt_header {
   font-family: Directo;
