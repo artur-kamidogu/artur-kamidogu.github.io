@@ -1,0 +1,175 @@
+@media (min-width: 768px) and (max-width:1199px) {
+    
+};
+@media (max-width: 767px) and (min-width: 200px) {
+    
+};
+
+
+.orange{
+    color:#F15525;
+}
+.bold{
+    color: #22253B;
+    font-family: "Gilroy-MediumItalic";
+    
+}
+
+
+.promo{
+    position: relative;
+    overflow: hidden;
+    height: 555px;
+    padding-bottom: 20px;
+    @media (min-width: 200px) and (max-width:1199px) {
+      height: 612px;      
+    };
+    &_text{
+        @media (min-width: 200px) and (max-width:1199px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        };
+    }
+    &_header{
+        color: #22253B;
+        font-family: "Gilroy-Medium";
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46px;
+        margin-top: 70px;
+        @media (min-width: 768px) and (max-width:1199px) {
+            text-align: center;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px;
+            margin-top: 30px;
+        };
+        @media (max-width: 767px) and (min-width: 200px) {
+            text-align: center;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            margin-top: 24px;
+        };
+    }
+    .line{
+        width: 365.216px;
+        height: 1px;
+        background: #DEDEDE;
+        margin-top: 31px;
+        @media (min-width: 200px) and (max-width:1199px) {
+            width: 93.4%;
+            margin: 0 auto;
+            margin-top: 18px;
+        };
+        
+    }
+    &_description{
+        color: #22253B;
+        // font-family: Gilroy-Thin;
+        font-size: 16px;
+        // font-style: normal;
+        font-weight: 400;
+        line-height: 23px; /* 143.75% */
+        margin-top: 14px;
+        @media (min-width: 768px) and (max-width:1199px) {
+            font-size: 14px;
+            // font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            
+        };
+        @media (max-width: 767px) and (min-width: 200px) {
+            text-align: center;
+            color: #22253B;
+            text-align: center;
+            // font-family: Gilroy;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            margin-top: 9px;
+        };
+    }
+    &_button{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        width: 321px;
+        height: 70px;
+        margin-top: 18px;
+        @media (min-width: 200px) and (max-width:1199px) {
+            max-width: 299px;
+            width: 100%;
+            height: 70px;
+            margin-top: 21px;
+        };
+        
+        &_text{
+            color: #FFF;
+            text-align: center;
+            // font-family: Gilroy;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 96.688%; /* 17.404px */
+            letter-spacing: -0.54px;
+            margin-right: 7px;
+        }
+    }
+    &_right{
+        position: absolute;
+        transform: translate(130px, -943px);
+        z-index: -1;
+        @media (min-width: 200px) and (max-width:1199px) {
+            transform: translate(-277px, -643px);
+            
+        };
+        &_img{
+            position: absolute;
+            top: -29px;
+        }
+    }
+
+
+    &_circl{
+        position: absolute;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 100%;
+        border: 2px solid #fff;
+        background: linear-gradient(260deg, #FFF -31.68%, rgba(255, 255, 255, 0.00) 87.52%), rgba(255, 255, 255, 0.30);
+        box-shadow: 0px 30px 100px 0px rgba(0, 129, 170, 0.06);
+        backdrop-filter: blur(30px);
+        &_1{
+            width: 1705px;
+            height: 1705px;
+
+        }
+        &_2{
+            width: 1236.175px;
+            height: 1236.175px;
+        }
+        &_3{
+            width: 907.597px;
+            height: 907.597px;
+        }
+        &_4{
+            width: 627.103px;
+            height: 627.103px;
+        }
+        &_5{
+            width: 399.384px;
+            height: 399.384px;
+        }
+
+    }
+}

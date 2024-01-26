@@ -8,7 +8,7 @@
     background-color:#7967FF;
     z-index: 1;
     overflow: hidden;
-    &_2{
+    &_green{
         margin-top: 66px;
         background-color: #32B47A;
         @media (min-width: 768px) and (max-width:1199px) {
@@ -19,7 +19,7 @@
             
         };
     }
-    &_3{
+    &_red{
         background-color: #EF6A62;
         margin-top: 103px;
     }
