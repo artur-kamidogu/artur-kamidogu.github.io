@@ -14,12 +14,18 @@
     padding: 0 15px 0 15px;
     };
     @media (max-width: 767px) and (min-width: 200px) {
-        
+        padding: 0 15px 0 15px;  
     };
 }
 
 @import "header";
 @import "promo";
+@import "technologies";
+@import "benefits";
+@import "learn";
+
+
+
 
 
 
@@ -58,7 +64,7 @@ button{
 h2{
     color: #22253B;
     text-align: center;
-    font-family: "Gilroy SemiBold";
+    font-family: "Gilroy-SemiBold";
     font-size: 46px;
     font-style: normal;
     font-weight: 600;
@@ -66,7 +72,7 @@ h2{
     @media (min-width: 768px) and (max-width:1199px) {
         color: #22253B;
         text-align: center;
-        font-family: "Gilroy SemiBold";
+        font-family: "Gilroy-SemiBold";
         font-size: 30px;
         font-style: normal;
         font-weight: 600;
@@ -75,7 +81,7 @@ h2{
     @media (max-width: 767px) and (min-width: 200px) {
         color: #22253B;
         text-align: center;
-        font-family: "Gilroy SemiBold";
+        font-family: "Gilroy-SemiBold";
         font-size: 24px;
         font-style: normal;
         font-weight: 600;
