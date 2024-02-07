@@ -541,12 +541,10 @@
 .benefits {
   padding-bottom: 87px;
   display: block;
-  background-color: #fff;
-  border-radius: 200px; }
+  background-color: #fff; }
   @media (max-width: 767px) and (min-width: 200px) {
     .benefits {
-      padding-bottom: 12px;
-      border-radius: 200px; } }
+      padding-bottom: 12px; } }
   .benefits_header {
     margin-top: 84px; }
     @media (max-width: 767px) and (min-width: 200px) {
