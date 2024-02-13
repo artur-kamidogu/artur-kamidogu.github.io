@@ -6,10 +6,12 @@
 };
 
 .help{
- background-color: #fff;   
- border-radius:80px;
+    background: rgb(249, 248, 253);
+    overflow: visible;
+//  border-radius:80px;
  padding: 91px 0 89px 0;
  @media (max-width: 767px) and (min-width: 200px) {
+    background: #fff;
     border-radius:30px;
     padding: 10px 0 10px 0;
  };

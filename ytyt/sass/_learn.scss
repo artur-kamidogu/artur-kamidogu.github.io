@@ -5,8 +5,19 @@
     
 };
 
+.background_circles{
+    position: absolute;
+    z-index: 0;
+    transform-origin: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-46%, -50%);
+    // transform: translateX(-50%) translateY(-50%);
+}
 .learn{
-    background: #F9F8FD;
+    background: rgb(249, 248, 253);
+    position: relative;
+    overflow: hidden;
     // background-size: contain;
     
     padding-top: 55px;
@@ -42,14 +53,38 @@
     @media (max-width: 767px) and (min-width: 200px) {
         margin-top: 33px;
       };
+    &_all_img{
+        position: relative;
+    }
     &_img{
+        z-index: 1;
         max-width: 762px;
         min-width: 299px;
         width: 100%;
+        
+    }
+    .notebook_shadow{
+        position: absolute;
+        max-width: 1500px;
+
+        transform-origin: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        // border: 1px solid red;
+        @media (min-width: 768px) and (max-width:1199px) {
+            max-width: 1000px;
+    
+        };
+        @media (max-width: 767px) and (min-width: 200px) {
+            max-width: 500px;
+        };
     }
     .learn_video{
         text-decoration: none;
         position: absolute;
+        z-index: 1;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -130,6 +165,7 @@
     
    } 
    &_content{
+    z-index: 5;
     margin: auto;
     margin-top: 29px;
     // padding-top: 40px;

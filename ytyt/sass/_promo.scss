@@ -17,6 +17,8 @@
 
 
 .promo{
+    background: #F9F8FD;
+
     position: relative;
     overflow: hidden;
     height: 555px;
@@ -25,6 +27,8 @@
       height: 612px;      
     };
     &_text{
+        position: relative;
+        z-index: 2;
         @media (min-width: 200px) and (max-width:1199px) {
             display: flex;
             flex-direction: column;
@@ -113,6 +117,8 @@
         };
         
         &_text{
+            position: relative;
+            z-index: 5;
             color: #FFF;
             text-align: center;
             // font-family: Gilroy;
@@ -127,7 +133,7 @@
     &_right{
         position: absolute;
         transform: translate(130px, -943px);
-        z-index: -1;
+        z-index: 0;
         @media (min-width: 200px) and (max-width:1199px) {
             transform: translate(-277px, -643px);
             
@@ -141,6 +147,7 @@
 
     &_circl{
         position: absolute;
+        z-index: 0;
         display: flex;
         align-items:center;
         justify-content: center;
@@ -193,7 +200,7 @@
     }
 
     &_center{
-        z-index: -1;
+        z-index: 0;
         position: absolute;
         top: 50%; /* Move the element 50% down from the top */
         left: 50%; /* Move the element 50% from the left */
