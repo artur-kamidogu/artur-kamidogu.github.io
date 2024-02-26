@@ -26,6 +26,8 @@
 @import "help";
 @import "coast";
 @import "footer";
+@import "pop-up";
+
 
 
 
@@ -57,7 +59,7 @@
     };   
 }
 
-button{
+section button{
     border:none;
     border-radius: 82px;
     background: #F15525;

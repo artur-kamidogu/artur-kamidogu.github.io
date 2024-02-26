@@ -45,6 +45,7 @@
 
         }
         &_header{
+            margin-top: 18px;
             text-align: center;
             color: #22253B;
             text-align: center;
@@ -132,6 +133,7 @@
                 height: 40px;
             }
             &_header{
+                margin-top: 15px;
                 color: #22253B;
                 text-align: center;
                 font-family: "Gilroy-SemiBold";
@@ -140,6 +142,9 @@
                 font-weight: 600;
                 line-height: 12px;
                 width:60%;
+                &:last-child{
+                    margin-top: 0px;
+                };
             }
             &_description{
                 color: #22253B;
@@ -155,6 +160,7 @@
                 margin-left: 17px;
                 .benefits_item_mobile_header{
                     text-align: left;
+                    
                 }
                 .benefits_item_mobile_description{
                     text-align: left;

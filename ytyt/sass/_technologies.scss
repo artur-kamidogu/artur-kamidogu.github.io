@@ -8,7 +8,7 @@
 
 .technologies{
     &_header{
-        margin-top: 103px;
+        margin-top: 53px;
     }
     &_img{
         display: flex;
@@ -70,9 +70,11 @@
         width: 500px;
         flex-wrap: wrap;
         row-gap: 10px; 
+        column-gap:10px;
         align-items:center;
         
         @media (min-width: 768px) and (max-width:1199px) {
+            column-gap: none;
             margin-top: 17px;
             align-items: flex-start;
             
@@ -81,6 +83,7 @@
             justify-content: space-between;
         };
         @media (max-width: 767px) and (min-width: 200px) {
+            column-gap: 0;
             margin-top: 17px;
             width: 267px;
             flex-wrap: wrap;
