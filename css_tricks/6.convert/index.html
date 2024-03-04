@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="section">
+    <div class="envelope">
+      
+    <div class="envelope__top">
+      <img src="envelope-top.svg" alt="">
+      </div>   
+      
+      <div class="paper">
+        Подарок
+      </div>
+      
+      <div class="envelope__body">
+        <img src="envelope.svg" alt="">
+      </div>
+      
+    </div>
+  </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+ $('.envelope').on('click', function(e) {
+   $('.envelope__top').toggleClass('envelope__top_close');     
+   $('.paper').toggleClass('paper_close');               
+}) 
+</script>
+</body>
+</html>

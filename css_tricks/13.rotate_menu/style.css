@@ -1,0 +1,40 @@
+body {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  background-color: #521455;
+}
+.container {
+  height: 100%;
+  transition: 0.2s;
+  transform-origin: left center;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0; 
+  width: 400px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: 0.2s;
+  transform: rotateY(50deg);
+  transform-origin: right center;
+/*   opacity: 0; */
+}
+.close-btn {
+  position: fixed;  
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.close-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar:target {
+  transform: rotateY(0deg);
+}
+.sidebar:target ~ .container {
+   transform: rotateY(25deg);
+}

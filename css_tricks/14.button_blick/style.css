@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #536dfe;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5em;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: translateX(-4em) skewX(-45deg);
+}
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.button:hover:before {
+  animation: move-light 0.5s infinite;
+}
+@keyframes move-light {
+  from {
+    transform: translateX(-4em) skewX(-45deg);
+  }
+  to {
+    transform: translateX(10em) skewX(-45deg);
+  }
+}/*# sourceMappingURL=style.css.map */
