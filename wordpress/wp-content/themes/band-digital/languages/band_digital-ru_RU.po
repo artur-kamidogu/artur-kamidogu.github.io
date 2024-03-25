@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: band_digital\n"
+"POT-Creation-Date: 2024-03-21 20:46+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: My Super Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: archive.php:11
+msgid "<small>Рубрика</small> <br>"
+msgstr ""
+
+#: archive.php:14
+msgid "<small>Записи с меткой</small> <br>"
+msgstr ""
+
+#: archive.php:17
+msgid "<small>Записи автора</small> <br>"
+msgstr ""
+
+#: archive.php:20
+msgid "<small>Арихив по дате </small> <br>"
+msgstr ""
+
+#: archive.php:116 home.php:103 search.php:106
+msgid "« <span class=\"p-2 border\">Предыдущие посты»</span>"
+msgstr ""
+
+#: archive.php:117 home.php:104 search.php:107
+msgid "<span class=\"p-2 border\">Следующие посты»</span>"
+msgstr ""
+
+#: comments.php:27
+msgid "Ответить  <i class=\"fa fa-reply\"></i>"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:65
+#, php-format
+msgid "Вам нужно войти <a href=\"%s\">войти</a> что бы оставить коментарий."
+msgstr ""
+
+#: comments.php:68
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"Вы вошли как %2$s.\">Вы вошли как %2$s</a>. <a "
+"href=\"%3$s\">Выйти?</a>"
+msgstr ""
+
+#: comments.php:71
+msgid "Ваш E-mail защищен от спама"
+msgstr ""
+
+#: comments.php:80
+msgid "Оставьте коментарий"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+msgid "Ответить %s"
+msgstr ""
+
+#: comments.php:86
+msgid "Отменить отправку "
+msgstr ""
+
+#: comments.php:87
+msgid "Отправить комментарий"
+msgstr ""
+
+#: functions.php:83
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:84
+msgid "Footer Left Menu"
+msgstr ""
+
+#: functions.php:85
+msgid "Footer Right Menu"
+msgstr ""
+
+#: functions.php:185
+msgid "Сайдбар блога"
+msgstr ""
+
+#: functions.php:194
+msgid "Текст в подвале"
+msgstr ""
+
+#: functions.php:202
+msgid "Контакты в подвале"
+msgstr ""
+
+#: functions.php:269
+msgid "Title:"
+msgstr ""
+
+#: functions.php:274
+msgid "Название файла:"
+msgstr ""
+
+#: functions.php:279
+msgid "Ссылка на файл:"
+msgstr ""
+
+#: functions.php:582
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:582 functions.php:780
+msgid "Edit"
+msgstr ""
+
+#: functions.php:634
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:636
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: functions.php:658
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:675 functions.php:774
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:681
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:738
+msgid "Ваш коментарий ждет модерации."
+msgstr ""
+
+#: functions.php:740
+msgid ""
+"Ваш коментарий ждет модерации. Это превью. Ваш коментарий будет опубликован "
+"после проверки."
+msgstr ""
+
+#: functions.php:760
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: functions.php:821 functions.php:832
+msgid "Услуги"
+msgstr ""
+
+#: functions.php:822
+msgid "Услуга"
+msgstr ""
+
+#: functions.php:823
+msgid "Добавить новую"
+msgstr ""
+
+#: functions.php:824
+msgid "Добавить новую услугу"
+msgstr ""
+
+#: functions.php:825
+msgid "Редактировать услугу"
+msgstr ""
+
+#: functions.php:826
+msgid "Новая услуга"
+msgstr ""
+
+#: functions.php:827
+msgid "Посмотреть услугу"
+msgstr ""
+
+#: functions.php:828
+msgid "Найти услугу"
+msgstr ""
+
+#: functions.php:829
+msgid "Услуг не найдено"
+msgstr ""
+
+#: functions.php:830
+msgid "В корзине услуг не найдено"
+msgstr ""
+
+#: functions.php:855 functions.php:866
+msgid "Партнеры"
+msgstr ""
+
+#: functions.php:856
+msgid "Партнер"
+msgstr ""
+
+#: functions.php:857
+msgid "Добавить нового"
+msgstr ""
+
+#: functions.php:858
+msgid "Добавить нового партнера"
+msgstr ""
+
+#: functions.php:859
+msgid "Редактировать партнера"
+msgstr ""
+
+#: functions.php:860
+msgid "Новый партнер"
+msgstr ""
+
+#: functions.php:861
+msgid "Посмотреть партнера"
+msgstr ""
+
+#: functions.php:862
+msgid "Найти партнера"
+msgstr ""
+
+#: functions.php:863
+msgid "Партнер не найден"
+msgstr ""
+
+#: functions.php:864
+msgid "В корзине партнеров не найдено"
+msgstr ""
+
+#: functions.php:889 functions.php:900
+msgid "Тарифы"
+msgstr ""
+
+#: functions.php:890
+msgid "Тариф"
+msgstr ""
+
+#: functions.php:891 functions.php:927
+msgid "Добавить новый"
+msgstr ""
+
+#: functions.php:892
+msgid "Добавить новый тариф"
+msgstr ""
+
+#: functions.php:893
+msgid "Редактировать тариф"
+msgstr ""
+
+#: functions.php:894
+msgid "Новый тариф"
+msgstr ""
+
+#: functions.php:895
+msgid "Посмотреть тариф"
+msgstr ""
+
+#: functions.php:896
+msgid "Найти тариф"
+msgstr ""
+
+#: functions.php:897
+msgid "Тариф не найден"
+msgstr ""
+
+#: functions.php:898
+msgid "В корзине тарифов не найдено"
+msgstr ""
+
+#: functions.php:925 functions.php:936
+msgid "Отзывы"
+msgstr ""
+
+#: functions.php:926
+msgid "Отзыв"
+msgstr ""
+
+#: functions.php:928
+msgid "Добавить новый отзыв"
+msgstr ""
+
+#: functions.php:929
+msgid "Редактировать отзыв"
+msgstr ""
+
+#: functions.php:930
+msgid "Новый отзыв"
+msgstr ""
+
+#: functions.php:931
+msgid "Посмотреть отзыв"
+msgstr ""
+
+#: functions.php:932
+msgid "Найти отзыв"
+msgstr ""
+
+#: functions.php:933
+msgid "отзыв не найден"
+msgstr ""
+
+#: functions.php:934
+msgid "В корзине отзывов не найдено"
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Результаты поиска по фразе: %s"
+msgstr ""
