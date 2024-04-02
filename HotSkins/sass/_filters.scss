@@ -20,7 +20,61 @@ input[type="checkbox"] {
     background-size: 100%;
     background-image: url('../icons/check.svg');
   }
+// red start 
+label.red::before{
+    border: 1px solid rgb(237, 66, 43);
+}
+input[type="checkbox"]:checked + label.red::before{
+    background-color: rgba(237, 66, 43, 0.6) ;
+}
+//red end
 
+//pink start
+label.pink::before{
+    border: 1px solid rgb(207, 48, 156);
+}
+input[type="checkbox"]:checked + label.pink::before{
+    background-color: rgba(207, 48, 156, 0.6) ;
+}
+//pink end
+
+
+//purple start 
+label.purple::before{
+    border: 1px solid rgb(133, 51, 237);
+}
+input[type="checkbox"]:checked + label.purple::before{
+    background-color: rgba(133, 51, 237, 0.6) ;
+}
+//purple end
+
+//blue start 
+label.blue::before{
+    border: 1px solid rgb(39, 92, 228);
+}
+input[type="checkbox"]:checked + label.blue::before{
+    background-color: rgba(39, 92, 228, 0.6) ;
+}
+
+//blue end 
+
+//light_blue 106, 178, 244 
+label.light_blue::before{
+    border: 1px solid rgb(106, 178, 244 );
+}
+input[type="checkbox"]:checked + label.light_blue::before{
+    background-color: rgba(106, 178, 244 , 0.6) ;
+}
+//light_blue end 
+
+//white start 
+label.white::before{
+    border: 1px solid rgb(255, 255, 255 );
+}
+input[type="checkbox"]:checked + label.white::before{
+    background-color: rgba(255, 255, 255 , 0.6) ;
+}
+//white end 
 
 .filters{
     background: rgb(32, 34, 42);

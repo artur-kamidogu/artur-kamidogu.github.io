@@ -60,6 +60,7 @@
                 display: flex;   
                 align-items: center;
                 border: 1px solid rgb(61, 69, 84);
+                column-gap: 16px;
                 &:first-child{
                     box-sizing: border-box;
                     border: 2px solid rgb(244, 192, 56);
